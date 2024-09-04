@@ -1,0 +1,208 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section{
+     position: relative;
+     display: flex;
+     width: 100%;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+     
+}
+section header{
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+section header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+section header ul li{
+    list-style: none;
+    margin-left: 30px;
+}
+section header ul li a{
+    text-decoration:none ;
+    color: black;
+    font-size: 13px;
+}
+section header ul li button{
+    background-color: rgb(6, 82, 197);
+    color: white;
+    
+    border: none;
+    border: 1px solid rgb(0, 81, 255);
+    justify-content: center;
+    align-items: log in;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   border-radius: 40px;
+}
+section header ul li img{
+    height: 25px;
+    width: 25px;
+    
+}
+.search-img{
+    height: 18px;
+    width: 18px;
+}
+.voice-img{
+    height: 24px;
+    width: 24px;
+}
+.lens-img{
+    height: 28px;
+    width: 28px;
+}
+.animation{
+    height: 180px;
+    width: 410px;
+    margin-left: 55px;
+    margin-bottom:20px;
+    margin-top: -228px;
+
+}
+section .main{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    color: rgb(197, 31, 31);
+
+}
+section .main .searchbox{
+    position: relative;
+    width: 80%;
+    margin-top: 3px;
+}
+section .main .searchbox .search{
+    border-radius: 24px;
+    width: 100%;
+   padding:13px;
+   padding-right: 80px;
+   padding-left: 60px;
+   border: 1px solid rgb(209, 209, 209);
+   outline: none;
+   font-size: 13px;
+}
+section .main .searchbox .icon .search-img{
+    position: absolute;
+   top:0;
+   left:0;
+   padding: 12px 24px;
+   display: flex;  
+}
+section .main .searchbox .icon .lens-img{
+    position: absolute;
+    top:-13%;
+    right: -38%;
+    padding: 12px 24px;
+    display: flex; 
+    justify-content:space-between;
+    align-items: center;
+    pointer-events:;
+}
+section .main .searchbox .icon .voice-img{
+    position: absolute;
+    top:-8%;
+    right:-27%;
+    padding: 12px 24px;
+    display: flex; 
+    justify-content:space-between;
+    margin-left: 100px;
+    align-items: center;
+    pointer-events: none;
+}
+
+section .main .buttons{
+    margin-top: 30px;
+}
+section .main .buttons button{
+    margin: 0% 10px;
+    padding: 10px 24px;
+    color: rgb(54, 54, 54);
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 1px solid transparent ;
+    outline: none;
+    font-size: 14px;
+
+}
+section .main .buttons button:hover{
+    border: 1px solid rgb(197, 197, 197);
+}
+section .main .lang{
+    margin-top: 20px;
+    font-size: 12px;
+    color: rgb(79, 79, 79);
+}
+section .main .lang a{
+    text-decoration: none;
+    color:rgb(66, 37, 227);
+}
+section .footer{
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    width:100%;
+    background-color: #f4f4f4;
+    border-top: 1px solid white;
+    
+}
+section .footer .bangladesh{
+    display: flex;
+    margin: 14px 20px 14px 35px;
+    font-size: 14px;
+    color: rgb(47, 47, 47);
+}
+section .footer .row{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(191, 190, 190);
+}
+section .footer .row ul{
+    display: flex;
+}
+section .footer .row ul li{
+    list-style: none;
+    margin-right: 30px;
+    font-size: 14px;
+}
+section .footer .row ul li a{
+    text-decoration: none;
+    color: rgb(47, 47, 47);
+}
+/*mobile vew*/
+@media (max-width:768px) {
+    section .main .searchbox{
+        width: 100%;
+
+    }
+    section .main .searchbox .search{
+        width:43%;
+    }
+    section .main .searchbox .icon .search-img{
+        left: 52px;
+    }
+    .animation{
+        height: 160px;
+        width: 350px;
+        margin-left: 5px;
+    }
+}
+
+
