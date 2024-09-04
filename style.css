@@ -187,22 +187,32 @@ section .footer .row ul li a{
     color: rgb(47, 47, 47);
 }
 /*mobile vew*/
-@media (max-width:768px) {
+@media (max-width:1100px) {
     section .main .searchbox{
         width: 100%;
 
     }
     section .main .searchbox .search{
-        width:43%;
+        width:60%;
     }
     section .main .searchbox .icon .search-img{
-        left: 52px;
+        left: 22px;
     }
     .animation{
         height: 160px;
         width: 350px;
         margin-left: 5px;
     }
+    section .main .searchbox .icon .voice-img{
+        right: 10%;
+    }
+    section .main .searchbox .icon .lens-img{
+        right: 3%;
+    }
+    section .footer .row ul{
+        display: block;
+    }
 }
+
 
 
